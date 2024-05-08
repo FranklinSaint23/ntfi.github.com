@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/forme.css">
+    <link rel="shortcut icon" href="images/card2.jpg">
+    <title>Page1</title>
+</head>
+<body>
+    <div class="container">
+        <!--formulaire de recuperation des donnees de l'utilisateur-->
+                <form action="Page2.html" method="post">
+                    <fieldset class="user-details">
+                     <legend class="center">Se Connecter au site</legend><br>
+                        <div class="input-box">
+                           
+                            <input type="text" placeholder="Entrer votre nom d'utilisateur !" required name="nom">
+                        </div>
+                        <div class="input-box">
+                         
+                            <input type="text" placeholder="Entrer votre prenom !" required name="prenom">
+                        </div>
+                        <div class="input-box">
+                           
+                            <input type="password" placeholder="Entrer votre mot de passe !" required name="mot_de_passe">
+                        </div>
+                        <div class="input-box">
+                           
+                            <input type="email" placeholder="Entrer votre addresse E-mail !" name="addresse">
+                        </div>
+                        <div class="input-box">
+                    
+                            <select name="statut" id="statut">
+                                <optgroup>
+                                    <option value="">Pays de résidence</option>
+                                    <option value="eleve">Cameroun</option>
+                                    <option value="admin">Congo</option>
+                                    <option value="admin">Gabon</option>
+                                </optgroup>
+                            </select><br><br>
+                        
+                    
+                        <div class="slide">
+                            <span class="span">MASCULIN</span>
+                            <input type="checkbox" name="sexe" id="M" class="checkbox"><pre>  </pre>
+                            <span class="span">FEMININ</span>
+                            <input type="checkbox" name="sexe" id="F" class="checkbox">
+                            
+                      
+                    
+                    </fieldset> 
+        <!--bouton de confirmation des donnees de l'utilisateur-->
+                    <div class="button">
+                        <input type="submit" value="Valider" >
+                    </div>
+                </form>
+                <div class="gender-section">
+                    <div class="gender">
+                        
+                    </div>
+                </div>
+                <div class="foot">
+                    <p><a href= "correction TD.pdf" target="_blank" class="blank"> Télécharger le fichier de la correction du TD </a></p>
+                </div>
+                
+    </div>
+               
+                    
+             
+
+</body>
+</html>
